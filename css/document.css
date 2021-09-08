@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+p {
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* main content */
+
+
+.main-content {
+    width: 900px;
+    background: #f8f8f8;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+    transform: translate(-50%, -50%);
+
+}
+
+.notice-text-wrapper {
+    background: #fff5cd;
+    width: 100;
+    text-align: center;
+    margin: 10px 5px;
+    padding: 5px;
+}
+
+.notice-text-wrapper p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.content-body {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    padding: 100px 50px;
+}
+
+.content-body .pdf-image-wrapper img {
+    width: 95px;
+    margin-right: 20px;
+}
+
+.content-link a {
+    font-size: 32px;
+    color: #0c67c3;
+    font-weight: 400;
+}
+
+.content-link h4 {
+    font-weight: 300;
+    font-size: 28px;
+    margin-bottom: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.content-link p {
+    font-size: 32px;
+    color: #272727;
+    text-transform: uppercase;
+    font-weight: 300;
+    line-height: 40px;
+}
+
+.content-footer-wrapper {
+    background: #eaeaea;
+    padding: 30px;
+}
+
+.microsoft-logo-wrapper img {
+    width: 150px;
+    margin-right: 20px;
+}
+
+.onedrive-logo-wrapper img {
+    width: 150px;
+}
+
+.logo-wrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.footer-desc p {
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.footer-desc a {
+    color: #272727;
+}
+
+@media screen and (max-width:991px) {
+    .main-content {
+        width: 600px;
+    }
+
+    .notice-text-wrapper p {
+        font-size: 16px;
+    }
+
+    .footer-desc p {
+        margin-bottom: 10px;
+    }
+
+    .content-body h4 {
+        font-size: 26px;
+    }
+
+    .content-body a {
+        font-size: 24px;
+    }
+
+    .content-body p {
+        font-size: 24px;
+    }
+
+}
+
+@media screen and (max-width:667px) {
+    .main-content {
+        width: 450px;
+    }
+
+    .logo-wrapper {
+        margin-bottom: 20px;
+    }
+
+    .logo-wrapper .microsoft-logo-wrapper img {
+        width: 120px;
+    }
+
+    .logo-wrapper .onedrive-logo-wrapper img {
+        width: 120px;
+    }
+
+    .content-body {
+        padding: 60px 20px;
+    }
+}
+
+@media screen and (max-width:470px) {
+    .notice-text-wrapper{
+        padding: 15px;
+    }
+    .main-content {
+        width: 100%;
+        margin: 0;
+    }
+
+    .main-content .notice-text-wrapper {
+        margin: 0;
+    }
+
+    .content-body {
+        padding: 50px 40px;
+    }
+
+    .content-body h4 {
+        font-size: 22px;
+    }
+
+    .content-body .pdf-image-wrapper img {
+        margin-right: 10px;
+    }
+
+    .content-body a {
+        font-size: 18px;
+    }
+
+    .content-body p {
+        font-size: 18px;
+    }
+    .content-footer-wrapper{
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width:350px) {
+    .content-body{
+        padding: 20px;
+    }
+    .content-body .pdf-image-wrapper img{
+        width:80px;
+      
+    }
+    .content-body h4{
+        margin-bottom: 10px;
+    }
+}
